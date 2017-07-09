@@ -17,18 +17,19 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     @IBOutlet weak var currentDayLabl: UILabel!
     var prayyerArray = [prayername]()
     
-    //tableView NumberOF
+    //tableView count cell
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return prayyerArray.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+       func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
        if let cell = tableView.dequeueReusableCell(withIdentifier: "timeCell", for: indexPath) as? prayCell
         
         {
          let prayer = prayyerArray[indexPath.row]
          cell.updateCell(pray: prayer)
+         cell.backgroundColor = UIColor.clear
         return cell
         
         } else{
@@ -55,17 +56,6 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
         currentDayLabl.text = currentDay
     }
     
-    func fadein () {
-        currentDayLabl.alpha = 0
-        self.view.addSubview(currentDayLabl)
-        
-        UIView.animate(withDuration: 4) { 
-            self.currentDayLabl.layer.opacity = 6
-
-        }
-
-    }
-    
     func fadeinTime () {
         hoursAndMin.alpha = 0
         self.view.addSubview(hoursAndMin)
@@ -77,24 +67,24 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
         
     }
     
-    func fadeinSek () {
-        sek.alpha = 0
-        self.view.addSubview(sek)
+
         
-        UIView.animate(withDuration: 4) {
-            self.sek.layer.opacity = 6
-            
-        }
-        
-    }
     
-    func fadeinDate () {
+    
+    func fadelbl () {
         currentDateLabl.alpha = 0
+        currentDayLabl.alpha = 0
+        sek.alpha = 0
+
         self.view.addSubview(currentDateLabl)
-        
+        self.view.addSubview(currentDayLabl)
+        self.view.addSubview(sek)
+
         UIView.animate(withDuration: 4) {
             self.currentDateLabl.layer.opacity = 6
-            
+            self.currentDayLabl.layer.opacity = 6
+            self.sek.layer.opacity = 6
+
         }
         
     }
@@ -108,11 +98,14 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     }
     
     var timerSek = Timer()
-    func updateSek(){
+   func updateSek(){
+    
     let now = Date()
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "ss"
     let secoundFromday = dateFormatter.string(from: now)
+ 
+    
     sek.text! = secoundFromday
     
     
@@ -120,18 +113,17 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
 
     override func viewDidLoad() {
     super.viewDidLoad()
-        
+        updateSek()
         self.setGradientBackground()
-       self.fadein ()
-       self.fadeinSek ()
        self.currentTime ()
        self.fadeinTime ()
-       self.fadeinDate ()
+       self.fadelbl()
        timerSek = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(ViewController.updateSek), userInfo: nil, repeats: true)
        timerTime = Timer.scheduledTimer(timeInterval: 0.60, target: self, selector: #selector(ViewController.currentTime), userInfo: nil, repeats: true)
        self.currentDay ()
        self.currentDate()
-        parseTimeTable()
+        print (prayyerArray)
+        print(prayername.self)
         //Self delegate
         tableView.delegate = self
         // Self DataSource 
