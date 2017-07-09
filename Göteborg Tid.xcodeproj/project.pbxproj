@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3274E5AC1F0ADBF900A0C004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E5AB1F0ADBF900A0C004 /* AppDelegate.swift */; };
+		3274E5AE1F0ADBF900A0C004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E5AD1F0ADBF900A0C004 /* ViewController.swift */; };
+		3274E5B11F0ADBF900A0C004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3274E5AF1F0ADBF900A0C004 /* Main.storyboard */; };
+		3274E5B31F0ADBF900A0C004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3274E5B21F0ADBF900A0C004 /* Assets.xcassets */; };
+		3274E5B61F0ADBF900A0C004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3274E5B41F0ADBF900A0C004 /* LaunchScreen.storyboard */; };
+		3274E5C11F0ADBF900A0C004 /* Go_teborg_TidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E5C01F0ADBF900A0C004 /* Go_teborg_TidTests.swift */; };
+		3274E5CC1F0ADBF900A0C004 /* Go_teborg_TidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E5CB1F0ADBF900A0C004 /* Go_teborg_TidUITests.swift */; };
+		3274E5DA1F0ADC5400A0C004 /* iPhone 7 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3274E5D91F0ADC5400A0C004 /* iPhone 7 Plus.png */; };
+		3274E5DE1F0AE4ED00A0C004 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E5DD1F0AE4ED00A0C004 /* Model.swift */; };
+		3274E5E01F0AE56500A0C004 /* prayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E5DF1F0AE56500A0C004 /* prayCell.swift */; };
+		3274E5E21F0AF0B600A0C004 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3274E5E11F0AF0B600A0C004 /* csv.swift */; };
+		3274E5E51F0AF30A00A0C004 /* TimesTable.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3274E5E41F0AF30A00A0C004 /* TimesTable.csv */; };
+		32811B8C1F121CF2003A7F81 /* DuhurTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 32811B8A1F121CF2003A7F81 /* DuhurTime.png */; };
+		32811B8D1F121CF2003A7F81 /* fadjerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32811B8B1F121CF2003A7F81 /* fadjerIcon.png */; };
+		32811B911F121D03003A7F81 /* IShaTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 32811B8E1F121D03003A7F81 /* IShaTime.png */; };
+		32811B921F121D03003A7F81 /* MaghribTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 32811B8F1F121D03003A7F81 /* MaghribTime.png */; };
+		32811B931F121D03003A7F81 /* ShurukTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 32811B901F121D03003A7F81 /* ShurukTime.png */; };
+		32811B951F121D0C003A7F81 /* AsrTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 32811B941F121D0C003A7F81 /* AsrTime.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3274E5BD1F0ADBF900A0C004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3274E5A01F0ADBF900A0C004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3274E5A71F0ADBF900A0C004;
+			remoteInfo = "Göteborg Tid";
+		};
+		3274E5C81F0ADBF900A0C004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3274E5A01F0ADBF900A0C004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3274E5A71F0ADBF900A0C004;
+			remoteInfo = "Göteborg Tid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3274E5A81F0ADBF900A0C004 /* Göteborg Tid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Göteborg Tid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3274E5AB1F0ADBF900A0C004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3274E5AD1F0ADBF900A0C004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3274E5B01F0ADBF900A0C004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3274E5B21F0ADBF900A0C004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3274E5B51F0ADBF900A0C004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3274E5B71F0ADBF900A0C004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3274E5BC1F0ADBF900A0C004 /* Göteborg TidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Göteborg TidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3274E5C01F0ADBF900A0C004 /* Go_teborg_TidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_teborg_TidTests.swift; sourceTree = "<group>"; };
+		3274E5C21F0ADBF900A0C004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3274E5C71F0ADBF900A0C004 /* Göteborg TidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Göteborg TidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3274E5CB1F0ADBF900A0C004 /* Go_teborg_TidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_teborg_TidUITests.swift; sourceTree = "<group>"; };
+		3274E5CD1F0ADBF900A0C004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3274E5D91F0ADC5400A0C004 /* iPhone 7 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus.png"; sourceTree = "<group>"; };
+		3274E5DD1F0AE4ED00A0C004 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3274E5DF1F0AE56500A0C004 /* prayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prayCell.swift; sourceTree = "<group>"; };
+		3274E5E11F0AF0B600A0C004 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		3274E5E41F0AF30A00A0C004 /* TimesTable.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TimesTable.csv; sourceTree = "<group>"; };
+		32811B8A1F121CF2003A7F81 /* DuhurTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DuhurTime.png; sourceTree = "<group>"; };
+		32811B8B1F121CF2003A7F81 /* fadjerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fadjerIcon.png; sourceTree = "<group>"; };
+		32811B8E1F121D03003A7F81 /* IShaTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IShaTime.png; sourceTree = "<group>"; };
+		32811B8F1F121D03003A7F81 /* MaghribTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaghribTime.png; sourceTree = "<group>"; };
+		32811B901F121D03003A7F81 /* ShurukTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShurukTime.png; sourceTree = "<group>"; };
+		32811B941F121D0C003A7F81 /* AsrTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AsrTime.png; sourceTree = "<group>"; };
+		32C0BDC71F1037E8007732CE /* CODE Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CODE Bold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3274E5A51F0ADBF900A0C004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3274E5B91F0ADBF900A0C004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3274E5C41F0ADBF900A0C004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322A6E531F12B7A7007048F4 /* Comp */ = {
+			isa = PBXGroup;
+			children = (
+				3274E5D91F0ADC5400A0C004 /* iPhone 7 Plus.png */,
+				32C0BDC71F1037E8007732CE /* CODE Bold.otf */,
+				32811B8A1F121CF2003A7F81 /* DuhurTime.png */,
+				32811B8B1F121CF2003A7F81 /* fadjerIcon.png */,
+				32811B8E1F121D03003A7F81 /* IShaTime.png */,
+				32811B8F1F121D03003A7F81 /* MaghribTime.png */,
+				32811B901F121D03003A7F81 /* ShurukTime.png */,
+				32811B941F121D0C003A7F81 /* AsrTime.png */,
+			);
+			name = Comp;
+			sourceTree = "<group>";
+		};
+		3274E59F1F0ADBF900A0C004 = {
+			isa = PBXGroup;
+			children = (
+				3274E5AA1F0ADBF900A0C004 /* Göteborg Tid */,
+				3274E5BF1F0ADBF900A0C004 /* Göteborg TidTests */,
+				3274E5CA1F0ADBF900A0C004 /* Göteborg TidUITests */,
+				3274E5A91F0ADBF900A0C004 /* Products */,
+				322A6E531F12B7A7007048F4 /* Comp */,
+			);
+			sourceTree = "<group>";
+		};
+		3274E5A91F0ADBF900A0C004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3274E5A81F0ADBF900A0C004 /* Göteborg Tid.app */,
+				3274E5BC1F0ADBF900A0C004 /* Göteborg TidTests.xctest */,
+				3274E5C71F0ADBF900A0C004 /* Göteborg TidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3274E5AA1F0ADBF900A0C004 /* Göteborg Tid */ = {
+			isa = PBXGroup;
+			children = (
+				3274E5E31F0AF0C100A0C004 /* Resources */,
+				3274E5AB1F0ADBF900A0C004 /* AppDelegate.swift */,
+				3274E5AD1F0ADBF900A0C004 /* ViewController.swift */,
+				3274E5AF1F0ADBF900A0C004 /* Main.storyboard */,
+				3274E5B21F0ADBF900A0C004 /* Assets.xcassets */,
+				3274E5B41F0ADBF900A0C004 /* LaunchScreen.storyboard */,
+				3274E5B71F0ADBF900A0C004 /* Info.plist */,
+				3274E5DD1F0AE4ED00A0C004 /* Model.swift */,
+				3274E5DF1F0AE56500A0C004 /* prayCell.swift */,
+			);
+			path = "Göteborg Tid";
+			sourceTree = "<group>";
+		};
+		3274E5BF1F0ADBF900A0C004 /* Göteborg TidTests */ = {
+			isa = PBXGroup;
+			children = (
+				3274E5C01F0ADBF900A0C004 /* Go_teborg_TidTests.swift */,
+				3274E5C21F0ADBF900A0C004 /* Info.plist */,
+			);
+			path = "Göteborg TidTests";
+			sourceTree = "<group>";
+		};
+		3274E5CA1F0ADBF900A0C004 /* Göteborg TidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3274E5CB1F0ADBF900A0C004 /* Go_teborg_TidUITests.swift */,
+				3274E5CD1F0ADBF900A0C004 /* Info.plist */,
+			);
+			path = "Göteborg TidUITests";
+			sourceTree = "<group>";
+		};
+		3274E5E31F0AF0C100A0C004 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3274E5E41F0AF30A00A0C004 /* TimesTable.csv */,
+				3274E5E11F0AF0B600A0C004 /* csv.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3274E5A71F0ADBF900A0C004 /* Göteborg Tid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3274E5D01F0ADBF900A0C004 /* Build configuration list for PBXNativeTarget "Göteborg Tid" */;
+			buildPhases = (
+				3274E5A41F0ADBF900A0C004 /* Sources */,
+				3274E5A51F0ADBF900A0C004 /* Frameworks */,
+				3274E5A61F0ADBF900A0C004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Göteborg Tid";
+			productName = "Göteborg Tid";
+			productReference = 3274E5A81F0ADBF900A0C004 /* Göteborg Tid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3274E5BB1F0ADBF900A0C004 /* Göteborg TidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3274E5D31F0ADBF900A0C004 /* Build configuration list for PBXNativeTarget "Göteborg TidTests" */;
+			buildPhases = (
+				3274E5B81F0ADBF900A0C004 /* Sources */,
+				3274E5B91F0ADBF900A0C004 /* Frameworks */,
+				3274E5BA1F0ADBF900A0C004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3274E5BE1F0ADBF900A0C004 /* PBXTargetDependency */,
+			);
+			name = "Göteborg TidTests";
+			productName = "Göteborg TidTests";
+			productReference = 3274E5BC1F0ADBF900A0C004 /* Göteborg TidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3274E5C61F0ADBF900A0C004 /* Göteborg TidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3274E5D61F0ADBF900A0C004 /* Build configuration list for PBXNativeTarget "Göteborg TidUITests" */;
+			buildPhases = (
+				3274E5C31F0ADBF900A0C004 /* Sources */,
+				3274E5C41F0ADBF900A0C004 /* Frameworks */,
+				3274E5C51F0ADBF900A0C004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3274E5C91F0ADBF900A0C004 /* PBXTargetDependency */,
+			);
+			name = "Göteborg TidUITests";
+			productName = "Göteborg TidUITests";
+			productReference = 3274E5C71F0ADBF900A0C004 /* Göteborg TidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3274E5A01F0ADBF900A0C004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ahamd Al-Said Ahamd";
+				TargetAttributes = {
+					3274E5A71F0ADBF900A0C004 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L5P4TJ6ARP;
+						ProvisioningStyle = Automatic;
+					};
+					3274E5BB1F0ADBF900A0C004 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3274E5A71F0ADBF900A0C004;
+					};
+					3274E5C61F0ADBF900A0C004 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3274E5A71F0ADBF900A0C004;
+					};
+				};
+			};
+			buildConfigurationList = 3274E5A31F0ADBF900A0C004 /* Build configuration list for PBXProject "Göteborg Tid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3274E59F1F0ADBF900A0C004;
+			productRefGroup = 3274E5A91F0ADBF900A0C004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3274E5A71F0ADBF900A0C004 /* Göteborg Tid */,
+				3274E5BB1F0ADBF900A0C004 /* Göteborg TidTests */,
+				3274E5C61F0ADBF900A0C004 /* Göteborg TidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3274E5A61F0ADBF900A0C004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32811B951F121D0C003A7F81 /* AsrTime.png in Resources */,
+				32811B921F121D03003A7F81 /* MaghribTime.png in Resources */,
+				3274E5B61F0ADBF900A0C004 /* LaunchScreen.storyboard in Resources */,
+				3274E5B31F0ADBF900A0C004 /* Assets.xcassets in Resources */,
+				3274E5E51F0AF30A00A0C004 /* TimesTable.csv in Resources */,
+				32811B911F121D03003A7F81 /* IShaTime.png in Resources */,
+				3274E5DA1F0ADC5400A0C004 /* iPhone 7 Plus.png in Resources */,
+				3274E5B11F0ADBF900A0C004 /* Main.storyboard in Resources */,
+				32811B8D1F121CF2003A7F81 /* fadjerIcon.png in Resources */,
+				32811B931F121D03003A7F81 /* ShurukTime.png in Resources */,
+				32811B8C1F121CF2003A7F81 /* DuhurTime.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3274E5BA1F0ADBF900A0C004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3274E5C51F0ADBF900A0C004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3274E5A41F0ADBF900A0C004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3274E5DE1F0AE4ED00A0C004 /* Model.swift in Sources */,
+				3274E5AE1F0ADBF900A0C004 /* ViewController.swift in Sources */,
+				3274E5E01F0AE56500A0C004 /* prayCell.swift in Sources */,
+				3274E5AC1F0ADBF900A0C004 /* AppDelegate.swift in Sources */,
+				3274E5E21F0AF0B600A0C004 /* csv.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3274E5B81F0ADBF900A0C004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3274E5C11F0ADBF900A0C004 /* Go_teborg_TidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3274E5C31F0ADBF900A0C004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3274E5CC1F0ADBF900A0C004 /* Go_teborg_TidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3274E5BE1F0ADBF900A0C004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3274E5A71F0ADBF900A0C004 /* Göteborg Tid */;
+			targetProxy = 3274E5BD1F0ADBF900A0C004 /* PBXContainerItemProxy */;
+		};
+		3274E5C91F0ADBF900A0C004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3274E5A71F0ADBF900A0C004 /* Göteborg Tid */;
+			targetProxy = 3274E5C81F0ADBF900A0C004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3274E5AF1F0ADBF900A0C004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3274E5B01F0ADBF900A0C004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3274E5B41F0ADBF900A0C004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3274E5B51F0ADBF900A0C004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3274E5CE1F0ADBF900A0C004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3274E5CF1F0ADBF900A0C004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3274E5D11F0ADBF900A0C004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L5P4TJ6ARP;
+				INFOPLIST_FILE = "Göteborg Tid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborg-Tid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3274E5D21F0ADBF900A0C004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L5P4TJ6ARP;
+				INFOPLIST_FILE = "Göteborg Tid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborg-Tid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3274E5D41F0ADBF900A0C004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Göteborg TidTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborg-TidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Göteborg Tid.app/Göteborg Tid";
+			};
+			name = Debug;
+		};
+		3274E5D51F0ADBF900A0C004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Göteborg TidTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborg-TidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Göteborg Tid.app/Göteborg Tid";
+			};
+			name = Release;
+		};
+		3274E5D71F0ADBF900A0C004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Göteborg TidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborg-TidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Göteborg Tid";
+			};
+			name = Debug;
+		};
+		3274E5D81F0ADBF900A0C004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Göteborg TidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborg-TidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Göteborg Tid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3274E5A31F0ADBF900A0C004 /* Build configuration list for PBXProject "Göteborg Tid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3274E5CE1F0ADBF900A0C004 /* Debug */,
+				3274E5CF1F0ADBF900A0C004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3274E5D01F0ADBF900A0C004 /* Build configuration list for PBXNativeTarget "Göteborg Tid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3274E5D11F0ADBF900A0C004 /* Debug */,
+				3274E5D21F0ADBF900A0C004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3274E5D31F0ADBF900A0C004 /* Build configuration list for PBXNativeTarget "Göteborg TidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3274E5D41F0ADBF900A0C004 /* Debug */,
+				3274E5D51F0ADBF900A0C004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3274E5D61F0ADBF900A0C004 /* Build configuration list for PBXNativeTarget "Göteborg TidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3274E5D71F0ADBF900A0C004 /* Debug */,
+				3274E5D81F0ADBF900A0C004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3274E5A01F0ADBF900A0C004 /* Project object */;
+}

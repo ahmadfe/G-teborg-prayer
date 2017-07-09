@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32590AFD1F0EFB8C0024B3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32590AFC1F0EFB8C0024B3F0 /* AppDelegate.swift */; };
+		32590AFF1F0EFB8C0024B3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32590AFE1F0EFB8C0024B3F0 /* ViewController.swift */; };
+		32590B021F0EFB8C0024B3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32590B001F0EFB8C0024B3F0 /* Main.storyboard */; };
+		32590B041F0EFB8C0024B3F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32590B031F0EFB8C0024B3F0 /* Assets.xcassets */; };
+		32590B071F0EFB8C0024B3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32590B051F0EFB8C0024B3F0 /* LaunchScreen.storyboard */; };
+		32590B121F0EFB8C0024B3F0 /* Go_teborgTidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32590B111F0EFB8C0024B3F0 /* Go_teborgTidTests.swift */; };
+		32590B1D1F0EFB8C0024B3F0 /* Go_teborgTidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32590B1C1F0EFB8C0024B3F0 /* Go_teborgTidUITests.swift */; };
+		32590B2B1F0EFDB80024B3F0 /* iPhone 7 Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 32590B2A1F0EFDB80024B3F0 /* iPhone 7 Plus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32590B0E1F0EFB8C0024B3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32590AF11F0EFB8C0024B3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32590AF81F0EFB8C0024B3F0;
+			remoteInfo = "GöteborgTid";
+		};
+		32590B191F0EFB8C0024B3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32590AF11F0EFB8C0024B3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32590AF81F0EFB8C0024B3F0;
+			remoteInfo = "GöteborgTid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32590AF91F0EFB8C0024B3F0 /* GöteborgTid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GöteborgTid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32590AFC1F0EFB8C0024B3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32590AFE1F0EFB8C0024B3F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32590B011F0EFB8C0024B3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32590B031F0EFB8C0024B3F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32590B061F0EFB8C0024B3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32590B081F0EFB8C0024B3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32590B0D1F0EFB8C0024B3F0 /* GöteborgTidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GöteborgTidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32590B111F0EFB8C0024B3F0 /* Go_teborgTidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_teborgTidTests.swift; sourceTree = "<group>"; };
+		32590B131F0EFB8C0024B3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32590B181F0EFB8C0024B3F0 /* GöteborgTidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GöteborgTidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32590B1C1F0EFB8C0024B3F0 /* Go_teborgTidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_teborgTidUITests.swift; sourceTree = "<group>"; };
+		32590B1E1F0EFB8C0024B3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32590B2A1F0EFDB80024B3F0 /* iPhone 7 Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7 Plus.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32590AF61F0EFB8C0024B3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32590B0A1F0EFB8C0024B3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32590B151F0EFB8C0024B3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32590AF01F0EFB8C0024B3F0 = {
+			isa = PBXGroup;
+			children = (
+				32590AFB1F0EFB8C0024B3F0 /* GöteborgTid */,
+				32590B101F0EFB8C0024B3F0 /* GöteborgTidTests */,
+				32590B1B1F0EFB8C0024B3F0 /* GöteborgTidUITests */,
+				32590AFA1F0EFB8C0024B3F0 /* Products */,
+				32590B2A1F0EFDB80024B3F0 /* iPhone 7 Plus.png */,
+			);
+			sourceTree = "<group>";
+		};
+		32590AFA1F0EFB8C0024B3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32590AF91F0EFB8C0024B3F0 /* GöteborgTid.app */,
+				32590B0D1F0EFB8C0024B3F0 /* GöteborgTidTests.xctest */,
+				32590B181F0EFB8C0024B3F0 /* GöteborgTidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32590AFB1F0EFB8C0024B3F0 /* GöteborgTid */ = {
+			isa = PBXGroup;
+			children = (
+				32590AFC1F0EFB8C0024B3F0 /* AppDelegate.swift */,
+				32590AFE1F0EFB8C0024B3F0 /* ViewController.swift */,
+				32590B001F0EFB8C0024B3F0 /* Main.storyboard */,
+				32590B031F0EFB8C0024B3F0 /* Assets.xcassets */,
+				32590B051F0EFB8C0024B3F0 /* LaunchScreen.storyboard */,
+				32590B081F0EFB8C0024B3F0 /* Info.plist */,
+			);
+			path = "GöteborgTid";
+			sourceTree = "<group>";
+		};
+		32590B101F0EFB8C0024B3F0 /* GöteborgTidTests */ = {
+			isa = PBXGroup;
+			children = (
+				32590B111F0EFB8C0024B3F0 /* Go_teborgTidTests.swift */,
+				32590B131F0EFB8C0024B3F0 /* Info.plist */,
+			);
+			path = "GöteborgTidTests";
+			sourceTree = "<group>";
+		};
+		32590B1B1F0EFB8C0024B3F0 /* GöteborgTidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32590B1C1F0EFB8C0024B3F0 /* Go_teborgTidUITests.swift */,
+				32590B1E1F0EFB8C0024B3F0 /* Info.plist */,
+			);
+			path = "GöteborgTidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32590AF81F0EFB8C0024B3F0 /* GöteborgTid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32590B211F0EFB8C0024B3F0 /* Build configuration list for PBXNativeTarget "GöteborgTid" */;
+			buildPhases = (
+				32590AF51F0EFB8C0024B3F0 /* Sources */,
+				32590AF61F0EFB8C0024B3F0 /* Frameworks */,
+				32590AF71F0EFB8C0024B3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GöteborgTid";
+			productName = "GöteborgTid";
+			productReference = 32590AF91F0EFB8C0024B3F0 /* GöteborgTid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32590B0C1F0EFB8C0024B3F0 /* GöteborgTidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32590B241F0EFB8C0024B3F0 /* Build configuration list for PBXNativeTarget "GöteborgTidTests" */;
+			buildPhases = (
+				32590B091F0EFB8C0024B3F0 /* Sources */,
+				32590B0A1F0EFB8C0024B3F0 /* Frameworks */,
+				32590B0B1F0EFB8C0024B3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32590B0F1F0EFB8C0024B3F0 /* PBXTargetDependency */,
+			);
+			name = "GöteborgTidTests";
+			productName = "GöteborgTidTests";
+			productReference = 32590B0D1F0EFB8C0024B3F0 /* GöteborgTidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32590B171F0EFB8C0024B3F0 /* GöteborgTidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32590B271F0EFB8C0024B3F0 /* Build configuration list for PBXNativeTarget "GöteborgTidUITests" */;
+			buildPhases = (
+				32590B141F0EFB8C0024B3F0 /* Sources */,
+				32590B151F0EFB8C0024B3F0 /* Frameworks */,
+				32590B161F0EFB8C0024B3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32590B1A1F0EFB8C0024B3F0 /* PBXTargetDependency */,
+			);
+			name = "GöteborgTidUITests";
+			productName = "GöteborgTidUITests";
+			productReference = 32590B181F0EFB8C0024B3F0 /* GöteborgTidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32590AF11F0EFB8C0024B3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ahamd Al-Said Ahamd";
+				TargetAttributes = {
+					32590AF81F0EFB8C0024B3F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					32590B0C1F0EFB8C0024B3F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32590AF81F0EFB8C0024B3F0;
+					};
+					32590B171F0EFB8C0024B3F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32590AF81F0EFB8C0024B3F0;
+					};
+				};
+			};
+			buildConfigurationList = 32590AF41F0EFB8C0024B3F0 /* Build configuration list for PBXProject "GöteborgTid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32590AF01F0EFB8C0024B3F0;
+			productRefGroup = 32590AFA1F0EFB8C0024B3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32590AF81F0EFB8C0024B3F0 /* GöteborgTid */,
+				32590B0C1F0EFB8C0024B3F0 /* GöteborgTidTests */,
+				32590B171F0EFB8C0024B3F0 /* GöteborgTidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32590AF71F0EFB8C0024B3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32590B071F0EFB8C0024B3F0 /* LaunchScreen.storyboard in Resources */,
+				32590B041F0EFB8C0024B3F0 /* Assets.xcassets in Resources */,
+				32590B2B1F0EFDB80024B3F0 /* iPhone 7 Plus.png in Resources */,
+				32590B021F0EFB8C0024B3F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32590B0B1F0EFB8C0024B3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32590B161F0EFB8C0024B3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32590AF51F0EFB8C0024B3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32590AFF1F0EFB8C0024B3F0 /* ViewController.swift in Sources */,
+				32590AFD1F0EFB8C0024B3F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32590B091F0EFB8C0024B3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32590B121F0EFB8C0024B3F0 /* Go_teborgTidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32590B141F0EFB8C0024B3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32590B1D1F0EFB8C0024B3F0 /* Go_teborgTidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32590B0F1F0EFB8C0024B3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32590AF81F0EFB8C0024B3F0 /* GöteborgTid */;
+			targetProxy = 32590B0E1F0EFB8C0024B3F0 /* PBXContainerItemProxy */;
+		};
+		32590B1A1F0EFB8C0024B3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32590AF81F0EFB8C0024B3F0 /* GöteborgTid */;
+			targetProxy = 32590B191F0EFB8C0024B3F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32590B001F0EFB8C0024B3F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32590B011F0EFB8C0024B3F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32590B051F0EFB8C0024B3F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32590B061F0EFB8C0024B3F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32590B1F1F0EFB8C0024B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32590B201F0EFB8C0024B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32590B221F0EFB8C0024B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GöteborgTid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborgTid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		32590B231F0EFB8C0024B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GöteborgTid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborgTid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		32590B251F0EFB8C0024B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GöteborgTidTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborgTidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GöteborgTid.app/GöteborgTid";
+			};
+			name = Debug;
+		};
+		32590B261F0EFB8C0024B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GöteborgTidTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborgTidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GöteborgTid.app/GöteborgTid";
+			};
+			name = Release;
+		};
+		32590B281F0EFB8C0024B3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GöteborgTidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborgTidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GöteborgTid";
+			};
+			name = Debug;
+		};
+		32590B291F0EFB8C0024B3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GöteborgTidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmadfe.Go-teborgTidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GöteborgTid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32590AF41F0EFB8C0024B3F0 /* Build configuration list for PBXProject "GöteborgTid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32590B1F1F0EFB8C0024B3F0 /* Debug */,
+				32590B201F0EFB8C0024B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32590B211F0EFB8C0024B3F0 /* Build configuration list for PBXNativeTarget "GöteborgTid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32590B221F0EFB8C0024B3F0 /* Debug */,
+				32590B231F0EFB8C0024B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32590B241F0EFB8C0024B3F0 /* Build configuration list for PBXNativeTarget "GöteborgTidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32590B251F0EFB8C0024B3F0 /* Debug */,
+				32590B261F0EFB8C0024B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32590B271F0EFB8C0024B3F0 /* Build configuration list for PBXNativeTarget "GöteborgTidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32590B281F0EFB8C0024B3F0 /* Debug */,
+				32590B291F0EFB8C0024B3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32590AF11F0EFB8C0024B3F0 /* Project object */;
+}

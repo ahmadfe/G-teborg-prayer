@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/prayerCell.swift"
+            timestampString = "520809532.653842"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "updateCell(pray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/prayerCell.swift"
+            timestampString = "520810408.061178"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "updateCell(pray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/prayerCell.swift"
+            timestampString = "520810409.139575"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "updateCell(pray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/prayerCell.swift"
+            timestampString = "520810419.556942"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "updateCell(pray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/prayerCell.swift"
+            timestampString = "520810423.945944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "updateCell(pray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/ViewController.swift"
+            timestampString = "521320146.986082"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "parseTimeTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/ViewController.swift"
+            timestampString = "521318922.650692"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "updateSek()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/prayCell.swift"
+            timestampString = "521239867.731163"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "prayCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_teborg_Tid.prayCell.FajerTime.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Go&#x308;teborg Tid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamdal-saidahamd/Desktop/Apps%20for%20Xcode/Go%CC%88teborg%20Tid/Go%CC%88teborg%20Tid/prayCell.swift"
+                  timestampString = "521239930.719293"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_teborg_Tid.prayCell.FajerTime.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Go&#x308;teborg Tid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamdal-saidahamd/Desktop/Apps%20for%20Xcode/Go%CC%88teborg%20Tid/Go%CC%88teborg%20Tid/prayCell.swift"
+                  timestampString = "521239930.722269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_teborg_Tid.prayCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; Go_teborg_Tid.prayCell"
+                  moduleName = "Go&#x308;teborg Tid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamdal-saidahamd/Desktop/Apps%20for%20Xcode/Go%CC%88teborg%20Tid/Go%CC%88teborg%20Tid/prayCell.swift"
+                  timestampString = "521239930.724967"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_teborg_Tid.prayCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Go_teborg_Tid.prayCell&gt;"
+                  moduleName = "Go&#x308;teborg Tid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamdal-saidahamd/Desktop/Apps%20for%20Xcode/Go%CC%88teborg%20Tid/Go%CC%88teborg%20Tid/prayCell.swift"
+                  timestampString = "521239930.727746"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go&#x308;teborg Tid/prayCell.swift"
+            timestampString = "521239879.566864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "prayCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_teborg_Tid.prayCell.AserTime.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Go&#x308;teborg Tid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamdal-saidahamd/Desktop/Apps%20for%20Xcode/Go%CC%88teborg%20Tid/Go%CC%88teborg%20Tid/prayCell.swift"
+                  timestampString = "521240864.726565"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_teborg_Tid.prayCell.AserTime.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Go&#x308;teborg Tid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamdal-saidahamd/Desktop/Apps%20for%20Xcode/Go%CC%88teborg%20Tid/Go%CC%88teborg%20Tid/prayCell.swift"
+                  timestampString = "521240864.729"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_teborg_Tid.prayCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; Go_teborg_Tid.prayCell"
+                  moduleName = "Go&#x308;teborg Tid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamdal-saidahamd/Desktop/Apps%20for%20Xcode/Go%CC%88teborg%20Tid/Go%CC%88teborg%20Tid/prayCell.swift"
+                  timestampString = "521240864.731147"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "282">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Go_teborg_Tid.prayCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Go_teborg_Tid.prayCell&gt;"
+                  moduleName = "Go&#x308;teborg Tid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahamdal-saidahamd/Desktop/Apps%20for%20Xcode/Go%CC%88teborg%20Tid/Go%CC%88teborg%20Tid/prayCell.swift"
+                  timestampString = "521240864.734181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
