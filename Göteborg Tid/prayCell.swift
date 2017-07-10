@@ -23,6 +23,12 @@ class prayCell: UITableViewCell {
     @IBOutlet weak var IshaTime: UILabel!
     
     
+    
+    
+  
+    
+    
+    
     var pray : prayername!
     
     func updateCell (pray:prayername) {
@@ -36,4 +42,9 @@ class prayCell: UITableViewCell {
     }
     
 
-}
+    
+    
+   
+    }
+        
+

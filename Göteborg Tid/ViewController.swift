@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate {
+class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate , UIViewControllerTransitioningDelegate {
     
-    @IBOutlet weak var sek: UILabel!
+    @IBOutlet weak var menuButton: UIButton!
     @IBOutlet weak var hoursAndMin: UILabel!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var currentDateLabl: UILabel!
@@ -27,25 +27,17 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
        if let cell = tableView.dequeueReusableCell(withIdentifier: "timeCell", for: indexPath) as? prayCell
         
         {
+
          let prayer = prayyerArray[indexPath.row]
-         cell.updateCell(pray: prayer)
+            cell.updateCell(pray: prayer)
             cell.backgroundColor = UIColor.clear
+            
             return cell
         
         } else{
         return prayCell()
         }
     }
-    
-    func currentDate() {
-        let now = Date()
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "YYYY-MM-dd"
-        let currentDate = dateFormatter.string(from: now)
-         currentDateLabl.text = currentDate
-    
-    }
-    
     
     func currentDay (){
         let now = Date()
@@ -74,16 +66,15 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     func fadelbl () {
         currentDateLabl.alpha = 0
         currentDayLabl.alpha = 0
-        sek.alpha = 0
 
         self.view.addSubview(currentDateLabl)
         self.view.addSubview(currentDayLabl)
-        self.view.addSubview(sek)
+        
 
         UIView.animate(withDuration: 4) {
             self.currentDateLabl.layer.opacity = 6
             self.currentDayLabl.layer.opacity = 6
-            self.sek.layer.opacity = 6
+            
             
 
         }
@@ -93,38 +84,32 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     var timerTime = Timer()
 
     func currentTime (){
-        let now = Date()
-      hoursAndMin.text = DateFormatter.localizedString(from: now, dateStyle: .none, timeStyle: .short)
-        
+        let time = DateFormatter()
+        let date = DateFormatter()
+        date.dateStyle = .medium
+        time.timeStyle = .medium
+        date.locale = Locale(identifier: "SV_SE")
+        hoursAndMin.text = time.string(from: Date())
+        currentDateLabl.text = date.string(from: Date())
     }
     
-    var timerSek = Timer()
-   func updateSek(){
     
-    let now = Date()
-    let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "s"
-    let secoundFromday = dateFormatter.string(from: now)
- 
-    
-    sek.text! = secoundFromday
-    
-    
-    }
+    let transition = CircularTransition()
 
+    
+    
+    
     override func viewDidLoad() {
     super.viewDidLoad()
-        updateSek()
+    menuButton.layer.cornerRadius = menuButton.frame.size.width / 2
+        tableView.reloadData()
+
         parseTimeTable()
-    
-       setGradientBackground()
-       self.currentTime ()
-       self.fadeinTime ()
-       self.fadelbl()
-       timerSek = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(ViewController.updateSek), userInfo: nil, repeats: true)
-       timerTime = Timer.scheduledTimer(timeInterval: 0.60, target: self, selector: #selector(ViewController.currentTime), userInfo: nil, repeats: true)
-       self.currentDay ()
-       self.currentDate()
+     //  setGradientBackground()
+      // currentTime ()
+       
+       timerTime = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.currentTime), userInfo: nil, repeats: true)
+       currentDay ()
         //Self delegate
         tableView.delegate = self
         // Self DataSource 
@@ -135,6 +120,14 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     }
 
   
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        animateTableView()
+        fadeinTime ()
+        fadelbl()
+        
+    }
     
     
     override func didReceiveMemoryWarning() {
@@ -175,9 +168,9 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
    
 
    func setGradientBackground() {
-        let colorTop =  UIColor(red:0.17, green:0.24, blue:0.31, alpha:1.0).cgColor
-        let colorBottom = UIColor(red:0.20, green:0.60, blue:0.86, alpha:1.0).cgColor
-    
+        let colorTop = UIColor(red:0.00, green:0.02, blue:0.16, alpha:1.0).cgColor
+        let colorBottom = UIColor(red:0.00, green:0.31, blue:0.57, alpha:1.0).cgColor
+    //UIColor(red:0.00, green:0.02, blue:0.16, alpha:1.0)
     let gradientLayer = CAGradientLayer()
     gradientLayer.colors = [ colorTop, colorBottom]
     gradientLayer.locations = [ 0.0, 1.0]
@@ -186,6 +179,57 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     }
  
 
+
+    
+    func animateTableView() {
+        tableView.reloadData()
+        let cells = tableView.visibleCells
+        
+        let tableViewHeight = tableView.bounds.size.height
+        
+        for cell in cells {
+            cell.transform = CGAffineTransform(translationX: 0, y: tableViewHeight)
+        }
+        
+        var delayCounter = 0
+        for cell in cells {
+            UIView.animate(withDuration: 6, delay: Double(delayCounter) * 0.05, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+                cell.transform = CGAffineTransform.identity
+            }, completion: nil)
+            delayCounter += 1
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondVC = segue.destination as! SecondViewController
+        secondVC.transitioningDelegate = self
+        secondVC.modalPresentationStyle = .custom
+    }
+    
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .present
+        transition.startingPoint = menuButton.center
+        transition.circleColor = menuButton.backgroundColor!
+        
+        return transition
+    }
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .dismiss
+        transition.startingPoint = menuButton.center
+        transition.circleColor = menuButton.backgroundColor!
+        
+        return transition
+    }
+    
+
+    
+    
+    
+    
+    
+    
     
     
     }
