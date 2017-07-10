@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -163,9 +164,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="menu.png"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GÖTEBORG BÖNETIDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdQ-G9-3uY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GÖTEBORG BÖNETIDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdQ-G9-3uY">
                                 <rect key="frame" x="22" y="20" width="371" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <color key="textColor" red="0.90980392156862744" green="0.18823529411764706" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -174,13 +174,19 @@
                                 <rect key="frame" x="166" y="631" width="82" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="m" image="menu.png"/>
+                                <state key="normal" title="NextPage" image="menu.png"/>
                                 <connections>
                                     <segue destination="50i-vk-PW9" kind="show" id="LpQ-Xy-W6Y"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xdQ-G9-3uY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="6Dg-TS-opA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xdQ-G9-3uY" secondAttribute="trailing" constant="1" id="Nft-LY-7Gh"/>
+                            <constraint firstItem="xdQ-G9-3uY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="2" id="Prd-O7-6RF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xdQ-G9-3uY" secondAttribute="bottom" constant="674" id="aum-i5-PsZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="foJ-um-aIc"/>
                     <connections>
@@ -207,16 +213,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bdo-kJ-BbD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="245-dj-fs9">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nkd-5W-MhD">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Nox-FO-0dy">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y2C-8Q-Oas">
+                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="egz-aK-loG">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                                                        <subviews>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="iPhone 7 Plus.png" translatesAutoresizingMaskIntoConstraints="NO" id="XR9-ch-CU5">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfd-bI-9DC">
                                 <rect key="frame" x="166" y="28" width="82" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="x" image="menu.png"/>
+                                <state key="normal" title="backToMain" image="menu.png"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="XfG-ZO-0Cf"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.90980392160000001" green="0.18823529410000001" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="dismissButton" destination="xfd-bI-9DC" id="l4s-XK-Gh3"/>
@@ -224,7 +264,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="71V-5C-P0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="-160"/>
+            <point key="canvasLocation" x="1073.913043478261" y="-160.59782608695653"/>
         </scene>
     </scenes>
     <resources>
