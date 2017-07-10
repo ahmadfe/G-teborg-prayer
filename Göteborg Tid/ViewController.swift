@@ -29,8 +29,8 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
         {
          let prayer = prayyerArray[indexPath.row]
          cell.updateCell(pray: prayer)
-         cell.backgroundColor = UIColor.clear
-        return cell
+            cell.backgroundColor = UIColor.clear
+            return cell
         
         } else{
         return prayCell()
@@ -84,6 +84,7 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
             self.currentDateLabl.layer.opacity = 6
             self.currentDayLabl.layer.opacity = 6
             self.sek.layer.opacity = 6
+            
 
         }
         
@@ -102,7 +103,7 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     
     let now = Date()
     let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "ss"
+    dateFormatter.dateFormat = "s"
     let secoundFromday = dateFormatter.string(from: now)
  
     
@@ -114,7 +115,9 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     override func viewDidLoad() {
     super.viewDidLoad()
         updateSek()
-        self.setGradientBackground()
+        parseTimeTable()
+    
+       setGradientBackground()
        self.currentTime ()
        self.fadeinTime ()
        self.fadelbl()
@@ -122,8 +125,6 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
        timerTime = Timer.scheduledTimer(timeInterval: 0.60, target: self, selector: #selector(ViewController.currentTime), userInfo: nil, repeats: true)
        self.currentDay ()
        self.currentDate()
-        print (prayyerArray)
-        print(prayername.self)
         //Self delegate
         tableView.delegate = self
         // Self DataSource 
@@ -173,18 +174,20 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
         }// End Func
    
 
-    func setGradientBackground() {
-        let colorTop =  UIColor(red:0.08, green:0.12, blue:0.19, alpha:1.0).cgColor
-        let colorBottom = UIColor(red:0.14, green:0.23, blue:0.33, alpha:1.0).cgColor
+   func setGradientBackground() {
+        let colorTop =  UIColor(red:0.17, green:0.24, blue:0.31, alpha:1.0).cgColor
+        let colorBottom = UIColor(red:0.20, green:0.60, blue:0.86, alpha:1.0).cgColor
     
     let gradientLayer = CAGradientLayer()
     gradientLayer.colors = [ colorTop, colorBottom]
     gradientLayer.locations = [ 0.0, 1.0]
     gradientLayer.frame = self.view.bounds
-    
-    self.view.layer.addSublayer(gradientLayer)
-            }
+    self.view.layer.insertSublayer(gradientLayer, at: 0)
+    }
  
+
+    
+    
     }
     
 
