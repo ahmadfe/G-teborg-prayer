@@ -3,7 +3,7 @@
     "questions": [
       {
         "title": "Reduce function",
-        "content": "var man kan hitta öl?",
+        "content": "v?",
         "options": [
           {
             "content": "The length of the array",
@@ -17,7 +17,10 @@
             "content": "The length of the array plus one",
             "correct": false
           },
-           
+          {
+            "content": "The length of the array plus one",
+            "correct": false
+          }
         ],
         "difficulty": "hard"
       },
