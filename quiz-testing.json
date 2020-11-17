@@ -20,6 +20,10 @@
           {
             "content": "The length of the array plus one",
             "correct": false
+          },
+          {
+            "content": "chose nu 5",
+            "correct": false
           }
         ],
         "difficulty": "hard"
