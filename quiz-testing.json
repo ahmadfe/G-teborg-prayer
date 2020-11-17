@@ -17,6 +17,14 @@
             "content": "The length of the array plus one",
             "correct": false
           }
+             {
+            "content": "Nothing here chocse 5",
+            "correct": false
+          }
+           {
+            "content": "same here 6",
+            "correct": false
+          }
         ],
         "difficulty": "hard"
       },
