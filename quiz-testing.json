@@ -1,0 +1,136 @@
+{
+  "quiz": {
+    "questions": [
+      {
+        "title": "Reduce function",
+        "content": "var man kan hitta öl?",
+        "options": [
+          {
+            "content": "The length of the array",
+            "correct": false
+          },
+          {
+            "content": "The length of the array minus one",
+            "correct": true
+          },
+          {
+            "content": "The length of the array plus one",
+            "correct": false
+          }
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "title": "Closures",
+        "content": "What is a closure",
+        "options": [
+          {
+            "content": "A factory function that returns an object",
+            "correct": false
+          },
+          {
+            "content": "An object literal, with a reference to this",
+            "correct": false
+          },
+          {
+            "content": "An inner functions access to an outer functions scope",
+            "correct": true
+          },
+          {
+            "content": "A this reference",
+            "correct": false
+          }
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "title": "Promises",
+        "content": "What parameters is a new promise function called with",
+        "options": [
+          {
+            "content": "Resolve",
+            "correct": false
+          },
+          {
+            "content": "Resolve, Reject",
+            "correct": true
+          },
+          {
+            "content": "Resolve, reject, .then",
+            "correct": false
+          },
+          {
+            "content": ".then",
+            "correct": false
+          }
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "title": "Bind function",
+        "content": "What does the function bind do?",
+        "options": [
+          {
+            "content": "It binds a context to a function",
+            "correct": true
+          },
+          {
+            "content": "It binds this to an object",
+            "correct": false
+          },
+          {
+            "content": "It binds an object to this",
+            "correct": false
+          }
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "title": "Arrow functions",
+        "content": "To oneline an arrow function what needs to be be true",
+        "options": [
+          {
+            "content": "There is less than one expression",
+            "correct": false
+          },
+          {
+            "content": "There is exactly one expression",
+            "correct": true
+          },
+          {
+            "content": "There is exactly more than one expression",
+            "correct": false
+          }
+        ],
+        "difficulty": "hard"
+      },
+      {
+        "title": "Array functions",
+        "content": "If we need to change the structure of some data in an array, what array function should we use?",
+        "options": [
+          {
+            "content": "Filter",
+            "correct": false
+          },
+          {
+            "content": "Bind",
+            "correct": true
+          },
+          {
+            "content": "Sort",
+            "correct": false
+          },
+          {
+            "content": "Reduce",
+            "correct": false
+          },
+          {
+            "content": "Map",
+            "correct": true
+          }
+        ],
+        "difficulty": "hard"
+      }
+    ]
+  }
+}
